@@ -28,13 +28,17 @@ struct ContentView: View {
         .opacity(0.5)
 
       VStack(spacing: 30) {
-        Text("Pitch").transformEffect(.init(rotationAngle: data.pitch))
-        Text("Roll").transformEffect(.init(rotationAngle: data.roll))
-        Text("yaw").transformEffect(.init(rotationAngle: data.yaw))
+        Text("Pitch").padding().background(Color.yellow).cornerRadius(15)
+          .transformEffect(.init(rotationAngle: data.pitch))
+        Text("Roll").padding().background(Color.green).cornerRadius(15)
+          .transformEffect(.init(rotationAngle: data.roll))
+        Text("yaw").padding().background(Color.blue).cornerRadius(15)
+          .transformEffect(.init(rotationAngle: data.yaw))
       }
+      .font(.system(size: 30))
 
       HStack {
-        if !motionEngine.data.isDeviceMotionActive {
+        if !motionEngine.data.isManagerConnected {
           Button(action: { motionEngine.start()  }, label: { Text("Start").padding().background(Color.green).cornerRadius(5) })
         } else {
           Button(action: { motionEngine.stop()  }, label: { Text("Stop").padding().background(Color.red).cornerRadius(5) })

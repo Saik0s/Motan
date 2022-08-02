@@ -23,6 +23,8 @@
 		495F3DAE28994CC300A3CDD3 /* Motion_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495F3DAD28994CC300A3CDD3 /* Motion_Watch_AppUITests.swift */; };
 		495F3DB028994CC300A3CDD3 /* Motion_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495F3DAF28994CC300A3CDD3 /* Motion_Watch_AppUITestsLaunchTests.swift */; };
 		495F3DC728994FA000A3CDD3 /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495F3DC628994FA000A3CDD3 /* AppStore.swift */; };
+		495F3DCA2899BFF300A3CDD3 /* DataBaseClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495F3DC92899BFF300A3CDD3 /* DataBaseClient.swift */; };
+		5F825CD9A6542C63F4B832D1 /* MotionEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F825A21BD1776B6073DF183 /* MotionEngine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +101,9 @@
 		495F3DAD28994CC300A3CDD3 /* Motion_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motion_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		495F3DAF28994CC300A3CDD3 /* Motion_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motion_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		495F3DC628994FA000A3CDD3 /* AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
+		495F3DC82899BFAC00A3CDD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		495F3DC92899BFF300A3CDD3 /* DataBaseClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseClient.swift; sourceTree = "<group>"; };
+		5F825A21BD1776B6073DF183 /* MotionEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotionEngine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,11 +181,14 @@
 		495F3D6928994CC200A3CDD3 /* Motion */ = {
 			isa = PBXGroup;
 			children = (
+				495F3DC82899BFAC00A3CDD3 /* Info.plist */,
 				495F3D6A28994CC200A3CDD3 /* MotionApp.swift */,
 				495F3D6C28994CC200A3CDD3 /* ContentView.swift */,
 				495F3DC628994FA000A3CDD3 /* AppStore.swift */,
 				495F3D6E28994CC200A3CDD3 /* Assets.xcassets */,
 				495F3D7028994CC200A3CDD3 /* Preview Content */,
+				5F825A21BD1776B6073DF183 /* MotionEngine.swift */,
+				495F3DC92899BFF300A3CDD3 /* DataBaseClient.swift */,
 			);
 			path = Motion;
 			sourceTree = "<group>";
@@ -471,6 +479,8 @@
 				495F3DC728994FA000A3CDD3 /* AppStore.swift in Sources */,
 				495F3D6D28994CC200A3CDD3 /* ContentView.swift in Sources */,
 				495F3D6B28994CC200A3CDD3 /* MotionApp.swift in Sources */,
+				495F3DCA2899BFF300A3CDD3 /* DataBaseClient.swift in Sources */,
+				5F825CD9A6542C63F4B832D1 /* MotionEngine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -732,6 +742,7 @@
 				DEVELOPMENT_TEAM = 8A76N862C8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Motion/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Motion;
 				INFOPLIST_KEY_NSMotionUsageDescription = "Analyzing motion data";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -766,6 +777,7 @@
 				DEVELOPMENT_TEAM = 8A76N862C8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Motion/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Motion;
 				INFOPLIST_KEY_NSMotionUsageDescription = "Analyzing motion data";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
