@@ -7,11 +7,13 @@
 
 import SwiftUI
 
+let store = AppStore()
+
 @main
 struct MotionApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+          ContentView(store: store)
         }
     }
 }

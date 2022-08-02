@@ -22,6 +22,7 @@
 		495F3DA428994CC300A3CDD3 /* Motion_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495F3DA328994CC300A3CDD3 /* Motion_Watch_AppTests.swift */; };
 		495F3DAE28994CC300A3CDD3 /* Motion_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495F3DAD28994CC300A3CDD3 /* Motion_Watch_AppUITests.swift */; };
 		495F3DB028994CC300A3CDD3 /* Motion_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495F3DAF28994CC300A3CDD3 /* Motion_Watch_AppUITestsLaunchTests.swift */; };
+		495F3DC728994FA000A3CDD3 /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495F3DC628994FA000A3CDD3 /* AppStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +98,7 @@
 		495F3DA928994CC300A3CDD3 /* Motion Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Motion Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		495F3DAD28994CC300A3CDD3 /* Motion_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motion_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		495F3DAF28994CC300A3CDD3 /* Motion_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motion_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		495F3DC628994FA000A3CDD3 /* AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +178,7 @@
 			children = (
 				495F3D6A28994CC200A3CDD3 /* MotionApp.swift */,
 				495F3D6C28994CC200A3CDD3 /* ContentView.swift */,
+				495F3DC628994FA000A3CDD3 /* AppStore.swift */,
 				495F3D6E28994CC200A3CDD3 /* Assets.xcassets */,
 				495F3D7028994CC200A3CDD3 /* Preview Content */,
 			);
@@ -465,6 +468,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				495F3DC728994FA000A3CDD3 /* AppStore.swift in Sources */,
 				495F3D6D28994CC200A3CDD3 /* ContentView.swift in Sources */,
 				495F3D6B28994CC200A3CDD3 /* MotionApp.swift in Sources */,
 			);
@@ -665,6 +669,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = Motion;
+				INFOPLIST_KEY_NSMotionUsageDescription = "Analyzing motion data";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.igortarasenko.Motion;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -695,6 +700,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = Motion;
+				INFOPLIST_KEY_NSMotionUsageDescription = "Analyzing motion data";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.igortarasenko.Motion;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -727,6 +733,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = Motion;
+				INFOPLIST_KEY_NSMotionUsageDescription = "Analyzing motion data";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -760,6 +767,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = Motion;
+				INFOPLIST_KEY_NSMotionUsageDescription = "Analyzing motion data";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
