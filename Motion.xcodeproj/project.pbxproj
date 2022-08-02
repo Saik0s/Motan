@@ -1,0 +1,1021 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		495F3D6B28994CC200A3CDD3 /* MotionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495F3D6A28994CC200A3CDD3 /* MotionApp.swift */; };
+		495F3D6D28994CC200A3CDD3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495F3D6C28994CC200A3CDD3 /* ContentView.swift */; };
+		495F3D6F28994CC200A3CDD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 495F3D6E28994CC200A3CDD3 /* Assets.xcassets */; };
+		495F3D7228994CC200A3CDD3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 495F3D7128994CC200A3CDD3 /* Preview Assets.xcassets */; };
+		495F3D7C28994CC300A3CDD3 /* MotionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495F3D7B28994CC300A3CDD3 /* MotionTests.swift */; };
+		495F3D8628994CC300A3CDD3 /* MotionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495F3D8528994CC300A3CDD3 /* MotionUITests.swift */; };
+		495F3D8828994CC300A3CDD3 /* MotionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495F3D8728994CC300A3CDD3 /* MotionUITestsLaunchTests.swift */; };
+		495F3D8E28994CC300A3CDD3 /* Motion Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 495F3D8D28994CC300A3CDD3 /* Motion Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		495F3D9328994CC300A3CDD3 /* MotionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495F3D9228994CC300A3CDD3 /* MotionApp.swift */; };
+		495F3D9528994CC300A3CDD3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495F3D9428994CC300A3CDD3 /* ContentView.swift */; };
+		495F3D9728994CC300A3CDD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 495F3D9628994CC300A3CDD3 /* Assets.xcassets */; };
+		495F3D9A28994CC300A3CDD3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 495F3D9928994CC300A3CDD3 /* Preview Assets.xcassets */; };
+		495F3DA428994CC300A3CDD3 /* Motion_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495F3DA328994CC300A3CDD3 /* Motion_Watch_AppTests.swift */; };
+		495F3DAE28994CC300A3CDD3 /* Motion_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495F3DAD28994CC300A3CDD3 /* Motion_Watch_AppUITests.swift */; };
+		495F3DB028994CC300A3CDD3 /* Motion_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495F3DAF28994CC300A3CDD3 /* Motion_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		495F3D7828994CC300A3CDD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 495F3D5F28994CC200A3CDD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 495F3D6628994CC200A3CDD3;
+			remoteInfo = Motion;
+		};
+		495F3D8228994CC300A3CDD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 495F3D5F28994CC200A3CDD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 495F3D6628994CC200A3CDD3;
+			remoteInfo = Motion;
+		};
+		495F3D8F28994CC300A3CDD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 495F3D5F28994CC200A3CDD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 495F3D8C28994CC300A3CDD3;
+			remoteInfo = "Motion Watch App";
+		};
+		495F3DA028994CC300A3CDD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 495F3D5F28994CC200A3CDD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 495F3D8C28994CC300A3CDD3;
+			remoteInfo = "Motion Watch App";
+		};
+		495F3DAA28994CC300A3CDD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 495F3D5F28994CC200A3CDD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 495F3D8C28994CC300A3CDD3;
+			remoteInfo = "Motion Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		495F3DB628994CC300A3CDD3 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				495F3D8E28994CC300A3CDD3 /* Motion Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		495F3D6728994CC200A3CDD3 /* Motion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Motion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		495F3D6A28994CC200A3CDD3 /* MotionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionApp.swift; sourceTree = "<group>"; };
+		495F3D6C28994CC200A3CDD3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		495F3D6E28994CC200A3CDD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		495F3D7128994CC200A3CDD3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		495F3D7728994CC300A3CDD3 /* MotionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		495F3D7B28994CC300A3CDD3 /* MotionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionTests.swift; sourceTree = "<group>"; };
+		495F3D8128994CC300A3CDD3 /* MotionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		495F3D8528994CC300A3CDD3 /* MotionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionUITests.swift; sourceTree = "<group>"; };
+		495F3D8728994CC300A3CDD3 /* MotionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		495F3D8D28994CC300A3CDD3 /* Motion Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Motion Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		495F3D9228994CC300A3CDD3 /* MotionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionApp.swift; sourceTree = "<group>"; };
+		495F3D9428994CC300A3CDD3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		495F3D9628994CC300A3CDD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		495F3D9928994CC300A3CDD3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		495F3D9F28994CC300A3CDD3 /* Motion Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Motion Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		495F3DA328994CC300A3CDD3 /* Motion_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motion_Watch_AppTests.swift; sourceTree = "<group>"; };
+		495F3DA928994CC300A3CDD3 /* Motion Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Motion Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		495F3DAD28994CC300A3CDD3 /* Motion_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motion_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		495F3DAF28994CC300A3CDD3 /* Motion_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motion_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		495F3D6428994CC200A3CDD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		495F3D7428994CC300A3CDD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		495F3D7E28994CC300A3CDD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		495F3D8A28994CC300A3CDD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		495F3D9C28994CC300A3CDD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		495F3DA628994CC300A3CDD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		495F3D5E28994CC200A3CDD3 = {
+			isa = PBXGroup;
+			children = (
+				495F3D6928994CC200A3CDD3 /* Motion */,
+				495F3D7A28994CC300A3CDD3 /* MotionTests */,
+				495F3D8428994CC300A3CDD3 /* MotionUITests */,
+				495F3D9128994CC300A3CDD3 /* Motion Watch App */,
+				495F3DA228994CC300A3CDD3 /* Motion Watch AppTests */,
+				495F3DAC28994CC300A3CDD3 /* Motion Watch AppUITests */,
+				495F3D6828994CC200A3CDD3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		495F3D6828994CC200A3CDD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				495F3D6728994CC200A3CDD3 /* Motion.app */,
+				495F3D7728994CC300A3CDD3 /* MotionTests.xctest */,
+				495F3D8128994CC300A3CDD3 /* MotionUITests.xctest */,
+				495F3D8D28994CC300A3CDD3 /* Motion Watch App.app */,
+				495F3D9F28994CC300A3CDD3 /* Motion Watch AppTests.xctest */,
+				495F3DA928994CC300A3CDD3 /* Motion Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		495F3D6928994CC200A3CDD3 /* Motion */ = {
+			isa = PBXGroup;
+			children = (
+				495F3D6A28994CC200A3CDD3 /* MotionApp.swift */,
+				495F3D6C28994CC200A3CDD3 /* ContentView.swift */,
+				495F3D6E28994CC200A3CDD3 /* Assets.xcassets */,
+				495F3D7028994CC200A3CDD3 /* Preview Content */,
+			);
+			path = Motion;
+			sourceTree = "<group>";
+		};
+		495F3D7028994CC200A3CDD3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				495F3D7128994CC200A3CDD3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		495F3D7A28994CC300A3CDD3 /* MotionTests */ = {
+			isa = PBXGroup;
+			children = (
+				495F3D7B28994CC300A3CDD3 /* MotionTests.swift */,
+			);
+			path = MotionTests;
+			sourceTree = "<group>";
+		};
+		495F3D8428994CC300A3CDD3 /* MotionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				495F3D8528994CC300A3CDD3 /* MotionUITests.swift */,
+				495F3D8728994CC300A3CDD3 /* MotionUITestsLaunchTests.swift */,
+			);
+			path = MotionUITests;
+			sourceTree = "<group>";
+		};
+		495F3D9128994CC300A3CDD3 /* Motion Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				495F3D9228994CC300A3CDD3 /* MotionApp.swift */,
+				495F3D9428994CC300A3CDD3 /* ContentView.swift */,
+				495F3D9628994CC300A3CDD3 /* Assets.xcassets */,
+				495F3D9828994CC300A3CDD3 /* Preview Content */,
+			);
+			path = "Motion Watch App";
+			sourceTree = "<group>";
+		};
+		495F3D9828994CC300A3CDD3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				495F3D9928994CC300A3CDD3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		495F3DA228994CC300A3CDD3 /* Motion Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				495F3DA328994CC300A3CDD3 /* Motion_Watch_AppTests.swift */,
+			);
+			path = "Motion Watch AppTests";
+			sourceTree = "<group>";
+		};
+		495F3DAC28994CC300A3CDD3 /* Motion Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				495F3DAD28994CC300A3CDD3 /* Motion_Watch_AppUITests.swift */,
+				495F3DAF28994CC300A3CDD3 /* Motion_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "Motion Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		495F3D6628994CC200A3CDD3 /* Motion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 495F3DB728994CC300A3CDD3 /* Build configuration list for PBXNativeTarget "Motion" */;
+			buildPhases = (
+				495F3D6328994CC200A3CDD3 /* Sources */,
+				495F3D6428994CC200A3CDD3 /* Frameworks */,
+				495F3D6528994CC200A3CDD3 /* Resources */,
+				495F3DB628994CC300A3CDD3 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				495F3D9028994CC300A3CDD3 /* PBXTargetDependency */,
+			);
+			name = Motion;
+			productName = Motion;
+			productReference = 495F3D6728994CC200A3CDD3 /* Motion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		495F3D7628994CC300A3CDD3 /* MotionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 495F3DBA28994CC300A3CDD3 /* Build configuration list for PBXNativeTarget "MotionTests" */;
+			buildPhases = (
+				495F3D7328994CC300A3CDD3 /* Sources */,
+				495F3D7428994CC300A3CDD3 /* Frameworks */,
+				495F3D7528994CC300A3CDD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				495F3D7928994CC300A3CDD3 /* PBXTargetDependency */,
+			);
+			name = MotionTests;
+			productName = MotionTests;
+			productReference = 495F3D7728994CC300A3CDD3 /* MotionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		495F3D8028994CC300A3CDD3 /* MotionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 495F3DBD28994CC300A3CDD3 /* Build configuration list for PBXNativeTarget "MotionUITests" */;
+			buildPhases = (
+				495F3D7D28994CC300A3CDD3 /* Sources */,
+				495F3D7E28994CC300A3CDD3 /* Frameworks */,
+				495F3D7F28994CC300A3CDD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				495F3D8328994CC300A3CDD3 /* PBXTargetDependency */,
+			);
+			name = MotionUITests;
+			productName = MotionUITests;
+			productReference = 495F3D8128994CC300A3CDD3 /* MotionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		495F3D8C28994CC300A3CDD3 /* Motion Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 495F3DB328994CC300A3CDD3 /* Build configuration list for PBXNativeTarget "Motion Watch App" */;
+			buildPhases = (
+				495F3D8928994CC300A3CDD3 /* Sources */,
+				495F3D8A28994CC300A3CDD3 /* Frameworks */,
+				495F3D8B28994CC300A3CDD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Motion Watch App";
+			productName = "Motion Watch App";
+			productReference = 495F3D8D28994CC300A3CDD3 /* Motion Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		495F3D9E28994CC300A3CDD3 /* Motion Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 495F3DC028994CC300A3CDD3 /* Build configuration list for PBXNativeTarget "Motion Watch AppTests" */;
+			buildPhases = (
+				495F3D9B28994CC300A3CDD3 /* Sources */,
+				495F3D9C28994CC300A3CDD3 /* Frameworks */,
+				495F3D9D28994CC300A3CDD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				495F3DA128994CC300A3CDD3 /* PBXTargetDependency */,
+			);
+			name = "Motion Watch AppTests";
+			productName = "Motion Watch AppTests";
+			productReference = 495F3D9F28994CC300A3CDD3 /* Motion Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		495F3DA828994CC300A3CDD3 /* Motion Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 495F3DC328994CC300A3CDD3 /* Build configuration list for PBXNativeTarget "Motion Watch AppUITests" */;
+			buildPhases = (
+				495F3DA528994CC300A3CDD3 /* Sources */,
+				495F3DA628994CC300A3CDD3 /* Frameworks */,
+				495F3DA728994CC300A3CDD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				495F3DAB28994CC300A3CDD3 /* PBXTargetDependency */,
+			);
+			name = "Motion Watch AppUITests";
+			productName = "Motion Watch AppUITests";
+			productReference = 495F3DA928994CC300A3CDD3 /* Motion Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		495F3D5F28994CC200A3CDD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					495F3D6628994CC200A3CDD3 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					495F3D7628994CC300A3CDD3 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 495F3D6628994CC200A3CDD3;
+					};
+					495F3D8028994CC300A3CDD3 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 495F3D6628994CC200A3CDD3;
+					};
+					495F3D8C28994CC300A3CDD3 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					495F3D9E28994CC300A3CDD3 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 495F3D8C28994CC300A3CDD3;
+					};
+					495F3DA828994CC300A3CDD3 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 495F3D8C28994CC300A3CDD3;
+					};
+				};
+			};
+			buildConfigurationList = 495F3D6228994CC200A3CDD3 /* Build configuration list for PBXProject "Motion" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 495F3D5E28994CC200A3CDD3;
+			productRefGroup = 495F3D6828994CC200A3CDD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				495F3D6628994CC200A3CDD3 /* Motion */,
+				495F3D7628994CC300A3CDD3 /* MotionTests */,
+				495F3D8028994CC300A3CDD3 /* MotionUITests */,
+				495F3D8C28994CC300A3CDD3 /* Motion Watch App */,
+				495F3D9E28994CC300A3CDD3 /* Motion Watch AppTests */,
+				495F3DA828994CC300A3CDD3 /* Motion Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		495F3D6528994CC200A3CDD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				495F3D7228994CC200A3CDD3 /* Preview Assets.xcassets in Resources */,
+				495F3D6F28994CC200A3CDD3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		495F3D7528994CC300A3CDD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		495F3D7F28994CC300A3CDD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		495F3D8B28994CC300A3CDD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				495F3D9A28994CC300A3CDD3 /* Preview Assets.xcassets in Resources */,
+				495F3D9728994CC300A3CDD3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		495F3D9D28994CC300A3CDD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		495F3DA728994CC300A3CDD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		495F3D6328994CC200A3CDD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				495F3D6D28994CC200A3CDD3 /* ContentView.swift in Sources */,
+				495F3D6B28994CC200A3CDD3 /* MotionApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		495F3D7328994CC300A3CDD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				495F3D7C28994CC300A3CDD3 /* MotionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		495F3D7D28994CC300A3CDD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				495F3D8828994CC300A3CDD3 /* MotionUITestsLaunchTests.swift in Sources */,
+				495F3D8628994CC300A3CDD3 /* MotionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		495F3D8928994CC300A3CDD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				495F3D9528994CC300A3CDD3 /* ContentView.swift in Sources */,
+				495F3D9328994CC300A3CDD3 /* MotionApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		495F3D9B28994CC300A3CDD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				495F3DA428994CC300A3CDD3 /* Motion_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		495F3DA528994CC300A3CDD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				495F3DB028994CC300A3CDD3 /* Motion_Watch_AppUITestsLaunchTests.swift in Sources */,
+				495F3DAE28994CC300A3CDD3 /* Motion_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		495F3D7928994CC300A3CDD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 495F3D6628994CC200A3CDD3 /* Motion */;
+			targetProxy = 495F3D7828994CC300A3CDD3 /* PBXContainerItemProxy */;
+		};
+		495F3D8328994CC300A3CDD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 495F3D6628994CC200A3CDD3 /* Motion */;
+			targetProxy = 495F3D8228994CC300A3CDD3 /* PBXContainerItemProxy */;
+		};
+		495F3D9028994CC300A3CDD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 495F3D8C28994CC300A3CDD3 /* Motion Watch App */;
+			targetProxy = 495F3D8F28994CC300A3CDD3 /* PBXContainerItemProxy */;
+		};
+		495F3DA128994CC300A3CDD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 495F3D8C28994CC300A3CDD3 /* Motion Watch App */;
+			targetProxy = 495F3DA028994CC300A3CDD3 /* PBXContainerItemProxy */;
+		};
+		495F3DAB28994CC300A3CDD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 495F3D8C28994CC300A3CDD3 /* Motion Watch App */;
+			targetProxy = 495F3DAA28994CC300A3CDD3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		495F3DB128994CC300A3CDD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		495F3DB228994CC300A3CDD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		495F3DB428994CC300A3CDD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Motion Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 8A76N862C8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Motion;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.igortarasenko.Motion;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.igortarasenko.Motion.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		495F3DB528994CC300A3CDD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Motion Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 8A76N862C8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Motion;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.igortarasenko.Motion;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.igortarasenko.Motion.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		495F3DB828994CC300A3CDD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Motion/Preview Content\"";
+				DEVELOPMENT_TEAM = 8A76N862C8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Motion;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.igortarasenko.Motion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		495F3DB928994CC300A3CDD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Motion/Preview Content\"";
+				DEVELOPMENT_TEAM = 8A76N862C8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Motion;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.igortarasenko.Motion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		495F3DBB28994CC300A3CDD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8A76N862C8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.igortarasenko.MotionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Motion.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Motion";
+			};
+			name = Debug;
+		};
+		495F3DBC28994CC300A3CDD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8A76N862C8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.igortarasenko.MotionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Motion.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Motion";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		495F3DBE28994CC300A3CDD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8A76N862C8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.igortarasenko.MotionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Motion;
+			};
+			name = Debug;
+		};
+		495F3DBF28994CC300A3CDD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8A76N862C8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.igortarasenko.MotionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Motion;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		495F3DC128994CC300A3CDD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8A76N862C8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.igortarasenko.Motion-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Motion Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Motion Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		495F3DC228994CC300A3CDD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8A76N862C8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.igortarasenko.Motion-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Motion Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Motion Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		495F3DC428994CC300A3CDD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8A76N862C8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.igortarasenko.Motion-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Motion Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		495F3DC528994CC300A3CDD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8A76N862C8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.igortarasenko.Motion-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Motion Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		495F3D6228994CC200A3CDD3 /* Build configuration list for PBXProject "Motion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				495F3DB128994CC300A3CDD3 /* Debug */,
+				495F3DB228994CC300A3CDD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		495F3DB328994CC300A3CDD3 /* Build configuration list for PBXNativeTarget "Motion Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				495F3DB428994CC300A3CDD3 /* Debug */,
+				495F3DB528994CC300A3CDD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		495F3DB728994CC300A3CDD3 /* Build configuration list for PBXNativeTarget "Motion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				495F3DB828994CC300A3CDD3 /* Debug */,
+				495F3DB928994CC300A3CDD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		495F3DBA28994CC300A3CDD3 /* Build configuration list for PBXNativeTarget "MotionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				495F3DBB28994CC300A3CDD3 /* Debug */,
+				495F3DBC28994CC300A3CDD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		495F3DBD28994CC300A3CDD3 /* Build configuration list for PBXNativeTarget "MotionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				495F3DBE28994CC300A3CDD3 /* Debug */,
+				495F3DBF28994CC300A3CDD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		495F3DC028994CC300A3CDD3 /* Build configuration list for PBXNativeTarget "Motion Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				495F3DC128994CC300A3CDD3 /* Debug */,
+				495F3DC228994CC300A3CDD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		495F3DC328994CC300A3CDD3 /* Build configuration list for PBXNativeTarget "Motion Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				495F3DC428994CC300A3CDD3 /* Debug */,
+				495F3DC528994CC300A3CDD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 495F3D5F28994CC200A3CDD3 /* Project object */;
+}
