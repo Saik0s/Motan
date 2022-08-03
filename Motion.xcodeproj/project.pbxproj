@@ -23,9 +23,12 @@
 		495F3DAE28994CC300A3CDD3 /* Motion_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495F3DAD28994CC300A3CDD3 /* Motion_Watch_AppUITests.swift */; };
 		495F3DB028994CC300A3CDD3 /* Motion_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495F3DAF28994CC300A3CDD3 /* Motion_Watch_AppUITestsLaunchTests.swift */; };
 		495F3DC728994FA000A3CDD3 /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495F3DC628994FA000A3CDD3 /* AppStore.swift */; };
-		495F3DCA2899BFF300A3CDD3 /* DataBaseClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495F3DC92899BFF300A3CDD3 /* DataBaseClient.swift */; };
 		495F3DCD2899C16000A3CDD3 /* CodableCSV in Frameworks */ = {isa = PBXBuildFile; productRef = 495F3DCC2899C16000A3CDD3 /* CodableCSV */; };
-		5F825CD9A6542C63F4B832D1 /* MotionEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F825A21BD1776B6073DF183 /* MotionEngine.swift */; };
+		5F8250EEAD5A888275AE13C6 /* Double++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F82510EDDCD3BC463F81A1C /* Double++.swift */; };
+		5F8256B130B4D06633A5EE95 /* MotionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8259619C416F9557E14BA0 /* MotionData.swift */; };
+		5F825B8F03BB2A3758E87766 /* MotionEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F82599A6A45312A72F950A9 /* MotionEngine.swift */; };
+		5F825BD3EAAF51DBF7890F08 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F825962DBACE66E8D44B9EC /* SettingsView.swift */; };
+		5F825E6C8FCCCA1A6C375B4A /* DataBaseClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F825D72C03B77B35EDDA1CD /* DataBaseClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,8 +106,11 @@
 		495F3DAF28994CC300A3CDD3 /* Motion_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motion_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		495F3DC628994FA000A3CDD3 /* AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
 		495F3DC82899BFAC00A3CDD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		495F3DC92899BFF300A3CDD3 /* DataBaseClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseClient.swift; sourceTree = "<group>"; };
-		5F825A21BD1776B6073DF183 /* MotionEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotionEngine.swift; sourceTree = "<group>"; };
+		5F82510EDDCD3BC463F81A1C /* Double++.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double++.swift"; sourceTree = "<group>"; };
+		5F8259619C416F9557E14BA0 /* MotionData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotionData.swift; sourceTree = "<group>"; };
+		5F825962DBACE66E8D44B9EC /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		5F82599A6A45312A72F950A9 /* MotionEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotionEngine.swift; sourceTree = "<group>"; };
+		5F825D72C03B77B35EDDA1CD /* DataBaseClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataBaseClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,8 +195,10 @@
 				495F3DC628994FA000A3CDD3 /* AppStore.swift */,
 				495F3D6E28994CC200A3CDD3 /* Assets.xcassets */,
 				495F3D7028994CC200A3CDD3 /* Preview Content */,
-				5F825A21BD1776B6073DF183 /* MotionEngine.swift */,
-				495F3DC92899BFF300A3CDD3 /* DataBaseClient.swift */,
+				5F82527A24A3E8957430FE4E /* Data */,
+				5F825D6F410C83D7F5DB99B0 /* Entities */,
+				5F82583A53DE11C076B9E132 /* Utils */,
+				5F8255EE8E2C03AC88121842 /* Views */,
 			);
 			path = Motion;
 			sourceTree = "<group>";
@@ -254,6 +262,47 @@
 				495F3DAF28994CC300A3CDD3 /* Motion_Watch_AppUITestsLaunchTests.swift */,
 			);
 			path = "Motion Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		5F82527A24A3E8957430FE4E /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				5F825D72C03B77B35EDDA1CD /* DataBaseClient.swift */,
+				5F82599A6A45312A72F950A9 /* MotionEngine.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		5F8255EE8E2C03AC88121842 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5F825962DBACE66E8D44B9EC /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5F82579CA555E0DD07929DD5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5F82510EDDCD3BC463F81A1C /* Double++.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5F82583A53DE11C076B9E132 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				5F82579CA555E0DD07929DD5 /* Extensions */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		5F825D6F410C83D7F5DB99B0 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				5F8259619C416F9557E14BA0 /* MotionData.swift */,
+			);
+			path = Entities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -487,8 +536,11 @@
 				495F3DC728994FA000A3CDD3 /* AppStore.swift in Sources */,
 				495F3D6D28994CC200A3CDD3 /* ContentView.swift in Sources */,
 				495F3D6B28994CC200A3CDD3 /* MotionApp.swift in Sources */,
-				495F3DCA2899BFF300A3CDD3 /* DataBaseClient.swift in Sources */,
-				5F825CD9A6542C63F4B832D1 /* MotionEngine.swift in Sources */,
+				5F825E6C8FCCCA1A6C375B4A /* DataBaseClient.swift in Sources */,
+				5F825B8F03BB2A3758E87766 /* MotionEngine.swift in Sources */,
+				5F8256B130B4D06633A5EE95 /* MotionData.swift in Sources */,
+				5F8250EEAD5A888275AE13C6 /* Double++.swift in Sources */,
+				5F825BD3EAAF51DBF7890F08 /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
